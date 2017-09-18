@@ -201,6 +201,15 @@ public class Status {
 	public static final int		article_not_exist_status=10031;
 	public static final String  article_not_exist_info="文章不存在";
 	
+	public static final int     email_empty_error_status = 10004;
+	public static final String 	email_empty_error_info 	= "邮箱为必填项，请输入邮箱号！";
+	
+	public static final int     email_fmt_error_status = 10005;
+	public static final String 	email_fmt_error_info 	= "邮箱格式错误，请重新输入邮箱号！";
+	
+	public static final int     demand_empty_error_status = 10006;
+	public static final String 	demand_empty_error_info 	= "请输入需求详细说明!";
+	
 	
 	
 }  
